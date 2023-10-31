@@ -1,10 +1,8 @@
 /* html  has an alias which is called :root */
 :root {
-  --primary-color: #9e27d6;
+  --primary-color: #460764;
   --secondary-color: #c97e73;
   --site-width: 1500px;
-  --brand: #000;
-  --brand-white: #f1e9e9;
-  --any-name: 100px;
-  --font-size: 10em;
+  --dark: #100e0e;
+  --light: #f2e7e7;
 }

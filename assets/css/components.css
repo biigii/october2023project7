@@ -20,16 +20,7 @@ nav.navigation a:hover {
   color: #f11;
 }
 
-footer {
-  height: 200px;
-  background-color: var(--primary-color);
+img.photo {
+  float: left;
 }
 
-button.button {
-  width: 200px;
-  height: 80px;
-  display: block;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  font-size: 2em;
-}
