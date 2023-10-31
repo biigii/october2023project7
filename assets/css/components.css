@@ -9,7 +9,7 @@ nav.navigation {
 nav.navigation a {
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--secondary-color);
+  color: var(--light);
   margin: 0 10px;
   transition: color 400ms;
   /* transition-property: color;
@@ -20,7 +20,36 @@ nav.navigation a:hover {
   color: #f11;
 }
 
-img.photo {
-  float: left;
+p.text {
+  padding-right: 5px;
+  padding-left: 5px;
+  /* because of box model: 50% + 50% + 5px + 5px + 5px + 5px*/
+  width: 50%;
+  float: left
 }
 
+.row {
+  margin-bottom: 50px;
+}
+
+.column img {
+  width: 100%;
+}
+
+.column {
+  width: 50%;
+  /* height: 300px; */
+  float: left;
+  padding: 0 10px;
+}
+
+
+main img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 200px;
+  background-color: var(--primary-color);
+}
